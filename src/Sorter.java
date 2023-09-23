@@ -36,5 +36,9 @@ public class Sorter {
         insertionSort(array);
     }
 
+    public void sort2(int[] arr){
+        selectionSort(arr);
+    }
+
 }
 
