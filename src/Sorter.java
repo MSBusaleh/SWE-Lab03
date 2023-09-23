@@ -1,5 +1,5 @@
 public class Sorter {
-    public static void insertionSort(int array[]) {
+    public static void insertionSort(int[] array) {
         int n = array.length;
         for (int i = 1; i < n; i++) {
             int key = array[i];
@@ -32,5 +32,9 @@ public class Sorter {
             arr[i] = temp;
         }
     }
+    public void sort1(int[] array){
+        insertionSort(array);
+    }
+
 }
 
